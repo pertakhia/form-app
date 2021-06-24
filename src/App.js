@@ -1,10 +1,9 @@
-
-import './App.css';
+import Login from './login/Login'
 
 function App() {
   return (
-    <div >
-     <h1>hello Shota </h1>
+    <div className='container'>
+    <Login/>
     </div>
   );
 }
